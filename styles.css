@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins, sans-serif;
 }
 
 header {
@@ -12,7 +13,102 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: color;
   width: 100vw;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.div_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+
+  img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+  }
+
+  h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+
+}
+
+.titulo_secundario{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.informativo{
+  width: 40rem;
+  align-items: center;
+  justify-content: center;
+
+  p{
+    color: white;
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-left: 80px;
+  }
+}
+
+.div_links{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
+  width: 45rem;
+
+}
+
+.div_acessos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40rem;
+  gap: 1rem;
+
+   a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    transition: color 0.3s ease;
+
+    &:hover{
+      color: #ffcc00;
+    }
+  }
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  button{
+    background-color: #50B2Ea;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+
+    &:hover{
+      background-color: green;
+    }
+  }
 }
