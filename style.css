@@ -1,11 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: poppins, sans-serif  ;
+  font-family: poppins, sans-serif;
 }
 
-header{
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e4e4e4;
+}
+
+header {
   display: flex;
   flex-direction: column;
   background: url(./assets/banner.png);
@@ -15,48 +21,45 @@ header{
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: color;
   height: 800px;
- 
 }
 
-nav{
+nav {
   background-color: black;
   width: 100vw;
   height: 140px;
   z-index: 1;
 }
 
-.div_logo{
+.div_logo {
   display: flex;
   margin-top: 20px;
-  margin-left: 352px;
- 
+  margin-left: 230px;
 
-  img{
+  img {
     width: 170px;
     height: 100px;
   }
-  
 }
 
-.div_links{
+.div_links {
   display: flex;
   margin-top: 50px;
   margin-left: 60px;
 
-  a{
+  a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
     font-size: 16px;
     transition: color 0.3s ease;
 
-    &:hover{
+    &:hover {
       color: #f0f0f0;
     }
   }
 }
 
-.div_empresa{
+.div_empresa {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,19 +68,90 @@ nav{
   text-align: center;
   margin-top: 400px;
   opacity: 0.9;
-  background-color: #4D6BB9;
+  background-color: #4d6bb9;
   height: 300px;
-  width: 700px;
+  width: 850px;
   border-radius: 0 30px 0 0;
+  opacity: 0;
+  transform: translateY(80px);
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.5s;
 
-  h1{
+  h1 {
     font-size: 48px;
     margin-bottom: 20px;
-
+    margin-left: 150px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
-  p{
-    font-size: 18px;
-    max-width: 600px;
-    line-height: 1.5;
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    width: 600px;
+    line-height: 118%;
+    letter-spacing: 0%;
+    text-align: end;
+    margin-left: 150px;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.div_equipe {
+  display: flex;
+  opacity: 0;
+  transform: translateY(80px);
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.div_equipe_imagem {
+  display: flex;
+  background-color: white;
+  width: 1000px;
+  height: 420px;
+  margin-left: 190px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px 0 0 0;
+}
+
+.caminhao {
+  width: 800px;
+  height: 380px;
+  border-radius: 20px 20px 0 0;
+}
+
+.div_texto_equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -80px;
+  left: -260px;
+  background-color: white;
+  margin-left: 260px;
+  border-radius: 20px 20px 0 0;
+  width: 750px;
+  height: 520px;
+
+  h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    width: 290px;
+    line-height: 118%;
+    letter-spacing: 0%;
   }
 }
