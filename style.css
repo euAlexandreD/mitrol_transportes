@@ -291,6 +291,16 @@ section {
 
 .frota {
   height: 850px;
+  opacity: 0;
+  transform: translateX(-60px) scale(0.9);
+  filter: blur(10px);
+  transition: all 0.8s ease;
+}
+
+.frota.show {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
 }
 
 .section_frota {
@@ -487,6 +497,18 @@ section {
   flex-direction: column;
   margin-top: 20px;
   margin-left: 140px;
+  transition: all 0.8s ease;
+  opacity: 0;
+}
+
+.form_contato {
+  transform: translateX(-100px);
+}
+
+/* Quando aparece */
+.form_contato.show {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 #nome,
@@ -533,6 +555,17 @@ textarea {
   height: 400px;
   margin-left: 50px;
   display: flex;
+  transition: all 0.8s ease;
+  opacity: 0;
+}
+
+.div_iframe {
+  transform: translateX(100px);
+}
+
+.div_iframe.show {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .local {
