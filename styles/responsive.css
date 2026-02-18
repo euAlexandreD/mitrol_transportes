@@ -1,0 +1,41 @@
+@media (max-width: 1390px) {
+  .div_logo {
+    margin-left: 70px;
+  }
+
+  .imagem_estrutura {
+    margin-left: 100px;
+  }
+
+  .logo_rs {
+    width: 700px;
+    height: 550px;
+    margin-top: 60px;
+  }
+
+  .div_diferenciais {
+    margin-left: 100px;
+  }
+
+  #nome,
+  #telefone {
+    width: 290px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  #email {
+    width: 585px;
+    height: 40px;
+  }
+
+  textarea {
+    width: 585px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .submit {
+    width: 585px;
+    height: 50px;
+  }
+}
