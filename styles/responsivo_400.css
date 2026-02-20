@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+  .div_empresa {
+    margin-top: 150px;
+    padding: 20px;
+  }
+
+  .div_empresa p,
+  .texto_estrutura,
+  .texto_visao,
+  .texto_diferenciais {
+    width: 100%;
+  }
+
+  .button_contato {
+    width: 90%;
+  }
+
+  .tabela_de_cidades {
+    font-size: 11px;
+  }
+
+  .local {
+    width: 100%;
+    height: 300px;
+  }
+}
