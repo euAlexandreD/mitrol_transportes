@@ -1471,3 +1471,56 @@ footer {
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .div_empresa {
+    margin-top: 330px;
+    width: 100%;
+    height: 170px;
+    max-width: 400px;
+
+    h1 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .imagem_estrutura {
+    height: 263px;
+  }
+
+  .div_estrutura {
+    margin-top: -40px;
+    height: 230px;
+  }
+
+  .texto_visao {
+    font-size: 12px;
+  }
+
+  .regioes {
+    height: 90%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .tabela_de_cidades {
+    min-width: 120px;
+    max-width: 220px;
+    font-size: 10px;
+  }
+
+  .tabela_de_cidades td,
+  .tabela_de_cidades th {
+    padding: 3px 5px;
+  }
+
+  .texto_diferenciais {
+    font-size: 17px;
+  }
+}
