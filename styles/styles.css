@@ -404,6 +404,11 @@ section {
   margin-top: 20px;
 }
 
+.whats {
+  text-decoration: none;
+  color: white;
+}
+
 /* Seção Regiões */
 .regioes {
   background-color: #f2f2f2;
@@ -821,11 +826,11 @@ footer {
     height: 600px;
   }
   .div_empresa {
-    margin-top: 250px;
+    margin-top: 230px;
     width: 90%;
     max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    left: -50px;
   }
   .div_empresa h1 {
     margin-left: 0;
@@ -907,7 +912,7 @@ footer {
     margin: 20px auto;
     width: 90%;
     height: auto;
-    top: 0;
+    top: -100px;
   }
   .imagem_frota {
     height: auto;
@@ -915,7 +920,7 @@ footer {
   .div_texto_frota {
     position: static;
     width: 90%;
-    margin: 20px auto;
+    margin: -120px auto 10px;
     height: auto;
   }
   .texto_frota {
@@ -929,6 +934,10 @@ footer {
   .button_contato {
     width: 90%;
     max-width: 450px;
+  }
+
+  .regioes {
+    margin-top: 40px;
   }
 
   .infos_regioes {
@@ -976,6 +985,7 @@ footer {
     height: auto;
   }
   .contato {
+    display: flex;
     width: 100%;
   }
   .titulo_contato {
@@ -1039,6 +1049,33 @@ footer {
   .texto_frota {
     font-size: 18px;
   }
+
+  .titulo_contato {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .logo {
+    margin-top: 10px;
+  }
+
+  .div_iframe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div_local {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo_local {
+    width: 100%;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1046,8 +1083,19 @@ footer {
     font-size: 14px;
     margin-right: 10px;
   }
+
+  nav {
+    height: 150px;
+    padding: 20px;
+  }
+
+  .logo {
+    margin-top: 10px;
+  }
+
   .div_empresa h1 {
-    font-size: 24px;
+    font-size: 20px;
+    width: 75%;
   }
   .div_texto_equipe h1 {
     font-size: 32px;
@@ -1061,6 +1109,11 @@ footer {
   .titulo_visao {
     font-size: 32px;
   }
+
+  .frota {
+    height: auto;
+  }
+
   .titulo_frota {
     font-size: 30px;
   }
@@ -1068,6 +1121,12 @@ footer {
     font-size: 16px;
     height: 50px;
   }
+
+  .div_regioes_atendidas {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .titulo_regioes {
     font-size: 32px;
   }
@@ -1076,10 +1135,24 @@ footer {
   }
   .titulo_contato {
     font-size: 32px;
+    font-weight: 400;
   }
   .submit {
     font-size: 16px;
   }
+
+  .div_iframe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo_local {
+    width: 100%;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
   footer {
     font-size: 10px;
   }
@@ -1318,7 +1391,6 @@ footer {
 
 .menu-mobile {
   display: none;
-  position: fixed;
   top: 0;
   right: -100%;
   width: 80%;
