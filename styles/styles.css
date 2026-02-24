@@ -49,9 +49,9 @@ header {
 
 /* Navbar */
 nav {
-  background-color: black;
+  background-color: #2d3751;
   width: 100%;
-  height: 140px;
+  height: 180px;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -61,11 +61,11 @@ nav {
 .div_logo {
   display: flex;
   margin-top: 20px;
-  margin-left: 230px;
+  margin-left: 200px;
 
   img {
     width: 170px;
-    height: 100px;
+    height: 170px;
   }
 }
 
@@ -74,6 +74,7 @@ nav {
   margin-top: 50px;
   margin-left: 60px;
   flex-wrap: wrap;
+  align-items: center;
 
   a {
     color: white;
@@ -199,19 +200,19 @@ section {
 .estruturacao {
   display: flex;
   margin-top: 20px;
+  width: 100%;
 }
 
 .div_estrutura {
   display: flex;
   flex-direction: column;
-  margin-left: 200px;
   width: 500px;
   height: 320px;
   background-color: white;
   padding: 20px;
   border-radius: 20px;
   position: relative;
-  left: -400px;
+  left: -150px;
   top: -50px;
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
   transform: translateX(-200%);
@@ -235,18 +236,18 @@ section {
 }
 
 .imagem_estrutura {
-  width: 1000px;
+  width: 100%;
   height: 450px;
   border-radius: 20px;
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
-  margin-left: 300px;
   margin-top: 20px;
+  margin-left: 300px;
   transform: translateX(200%);
   animation: slideInRight 1s ease-out forwards;
 }
 
 .predio {
-  width: 1200px;
+  width: 1600px;
   height: 550px;
   border-radius: 20px;
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
@@ -276,7 +277,7 @@ section {
   border-radius: 20px;
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
   position: relative;
-  left: 500px;
+  left: 350px;
   top: -20px;
   padding: 20px;
   transform: translateY(100vh);
@@ -487,10 +488,24 @@ section {
 
 .texto_diferenciais {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   width: 400px;
   text-align: start;
   color: white;
+}
+
+.div_check {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+}
+
+.diferenciais_check {
+  font-size: 18px;
+  color: white;
+  margin-right: 10px;
 }
 
 .notebook {
@@ -1526,6 +1541,10 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
+  nav {
+    height: 150px;
+  }
+
   .div_empresa {
     margin-top: 330px;
     width: 100vw;
@@ -1575,5 +1594,9 @@ footer {
 
   .texto_diferenciais {
     font-size: 17px;
+  }
+
+  .diferenciais_check {
+    font-size: 14px;
   }
 }
