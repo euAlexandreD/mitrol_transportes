@@ -113,3 +113,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+const counter = document.querySelector(".contador_viagens");
+
+window.addEventListener("load", function () {
+  function increment(i, max) {
+    if (i > max) return;
+    setTimeout(function () {
+      counter.innerText = i;
+      increment(i + 1, max);
+    }, 10);
+  }
+
+  increment(0, 12000);
+});
