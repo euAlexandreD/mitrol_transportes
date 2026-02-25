@@ -1603,11 +1603,27 @@ footer {
     height: 150px;
   }
 
+  .div_12_anos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 5px;
+    top: 15px;
+    opacity: 0.7;
+  }
+
+  .logo_12_anos {
+    width: 200px;
+    height: 200px;
+  }
+
   .div_empresa {
-    margin-top: 330px;
+    margin-top: 130px;
     width: 100vw;
     height: 170px;
     max-width: 400px;
+    margin-left: 950px;
+    padding: 20px;
 
     h1 {
       font-size: 15px;
