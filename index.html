@@ -146,6 +146,124 @@
           </tr>
           <tr>
             <td>Arroio dos Ratos</td>
+            <td>Balneário Pinhal</td>
+            <td>Barra do Ribeiro</td>
+            <td>Bom Princípio</td>
+            <td>Butiá</td>
+          </tr>
+          <tr>
+            <td>Cachoeirinha</td>
+            <td>Cambará do Sul</td>
+            <td>Campo Bom</td>
+            <td>Canela</td>
+            <td>Canoas</td>
+          </tr>
+          <tr>
+            <td>Capão da Canoa</td>
+            <td>Capela de Santana</td>
+            <td>Charqueadas</td>
+            <td>Cidreira</td>
+            <td>Dois Irmãos</td>
+          </tr>
+          <tr>
+            <td>Eldorado do Sul</td>
+            <td>Encantado</td>
+            <td>Estância Velha</td>
+            <td>Esteio</td>
+            <td>Estrela</td>
+          </tr>
+          <tr>
+            <td>Fazenda Vila Nova</td>
+            <td>Feliz</td>
+            <td>General Câmara</td>
+            <td>Glorinha</td>
+            <td>Gramado</td>
+          </tr>
+          <tr>
+            <td>Gravataí</td>
+            <td>Guaíba</td>
+            <td>Harmonia</td>
+            <td>Igrejinha</td>
+            <td>Imbé</td>
+          </tr>
+          <tr>
+            <td>Ivoti</td>
+            <td>Lajeado</td>
+            <td>Lindolfo Collor</td>
+            <td>Maquiné</td>
+            <td>Minas do Leão</td>
+          </tr>
+          <tr>
+            <td>Montenegro</td>
+            <td>Morro Reuter</td>
+            <td>Nova Hartz</td>
+            <td>Nova Petrópolis</td>
+            <td>Nova Santa Rita</td>
+          </tr>
+          <tr>
+            <td>Novo Hamburgo</td>
+            <td>Osório</td>
+            <td>Pareci Novo</td>
+            <td>Parobé</td>
+            <td>Picada Café</td>
+          </tr>
+          <tr>
+            <td>Portão</td>
+            <td>Porto Alegre</td>
+            <td>Presidente Lucena</td>
+            <td>Riozinho</td>
+            <td>Roca Sales</td>
+          </tr>
+          <tr>
+            <td>Rolante</td>
+            <td>Santa Maria do Herval</td>
+            <td>Santo Antônio da Patrulha</td>
+            <td>São Francisco de Paula</td>
+            <td>São Jerônimo</td>
+          </tr>
+          <tr>
+            <td>São Leopoldo</td>
+            <td>São Sebastião do Caí</td>
+            <td>Sapiranga</td>
+            <td>Sapucaia do Sul</td>
+            <td>Tabaí</td>
+          </tr>
+          <tr>
+            <td>Taquara</td>
+            <td>Terra de Areia</td>
+            <td>Teutônia</td>
+            <td>Torres</td>
+            <td>Tramandaí</td>
+          </tr>
+          <tr>
+            <td>Três Cachoeiras</td>
+            <td>Três Coroas</td>
+            <td>Três Forquilhas</td>
+            <td>Triunfo</td>
+            <td>Tupandi</td>
+          </tr>
+          <tr>
+            <td>Vale Real</td>
+            <td>Viamão</td>
+            <td>Xangri-Lá</td>
+          </tr>
+        </table>
+      </div>
+      <div class="div_button_pdf">
+        <button onclick="gerarPDF()" class="button_pdf">Baixar PDF</button>
+        <img id="logoEmpresa" src="./assets/Mitrol_Logo.png" style="display:none;">
+      </div>
+  <!--
+        <table class="tabela_de_cidades" border="2">
+          <tr>
+            <td>Alto Feliz</td>
+            <td>Alvorada</td>
+            <td>Araricá</td>
+            <td>Arroio do Meio</td>
+            <td>Arroio do Sal</td>
+          </tr>
+          <tr>
+            <td>Arroio dos Ratos</td>
             <td>Minas do Leão</td>
             <td>Montenegro</td>
             <td>Morro Reuter</td>
@@ -249,8 +367,7 @@
           </tr>
         </table>
       </div>
-      
-    </aside>
+    </aside> -->
     <!-- <div class="div_contagem">
         <div class="div_contagem_viagens">
           <h1 class="contador_viagens">0</h1>
@@ -267,19 +384,22 @@
         <p class="texto_diferenciais">Nossos diferenciais são:</p>
         <div class="div_check">
           <p class="diferenciais_check"><span>&#9989</span>
-            atendimento personalizado, veículos próprios, alvará sanitário
+            Atendimento personalizado</p>
+          <p class="diferenciais_check"><span>&#9989</span>
+            Veículos próprios</p>
+          <p class="diferenciais_check"><span>&#9989</span>
+            Alvará sanitário</p>
+          <p class="diferenciais_check"><span>&#9989</span>
+            Controle diário de limpeza e organização
           </p>
           <p class="diferenciais_check"><span>&#9989</span>
-            controle diário de limpeza e organização
+            Equipe treinada e especializada no ramo alimentício
           </p>
           <p class="diferenciais_check"><span>&#9989</span>
-            equipe treinada e especializada no ramo alimentício
+            Estrutura ampla e segura
           </p>
           <p class="diferenciais_check"><span>&#9989</span>
-            estrutura ampla e segura
-          </p>
-          <p class="diferenciais_check"><span>&#9989</span>
-            entregas pontuais e comprometimento com a qualidade dos produtos
+            Entregas pontuais e comprometimento com a qualidade dos produtos
           </p>
         </div>
       </div>
@@ -364,4 +484,7 @@
     </footer>
   </body>
   <script src="/utils/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+,<script src="./utils/pdf.js"></script>
 </html>
