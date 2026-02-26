@@ -32,6 +32,16 @@ img {
   z-index: 1000;
 }
 
+.fa-brands {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 /* Header */
 header {
   display: flex;
@@ -142,7 +152,7 @@ nav {
     width: 600px;
     line-height: 118%;
     letter-spacing: 0%;
-    text-align: end;
+    text-align: justify;
     margin-left: 150px;
   }
 }
@@ -208,6 +218,7 @@ nav {
     width: 290px;
     line-height: 118%;
     letter-spacing: 0%;
+    text-align: justify;
   }
 }
 
@@ -252,6 +263,7 @@ section {
   font-size: 14px;
   width: 400px;
   letter-spacing: 0%;
+  text-align: justify;
 }
 
 .imagem_estrutura {
@@ -317,7 +329,7 @@ section {
   font-size: 14px;
   width: 400px;
   letter-spacing: 0%;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 
@@ -400,7 +412,7 @@ section {
   font-weight: 400;
   font-size: 23px;
   width: 400px;
-  text-align: start;
+  text-align: justify;
 }
 
 .div_button {
@@ -422,6 +434,20 @@ section {
   border: none;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.button_contato_equipe {
+  background-color: #4d6bb9;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  margin-top: 70px;
+  border: none;
 }
 
 .whats {
@@ -1617,7 +1643,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 450px) {
   nav {
     height: 150px;
   }
@@ -1627,6 +1653,10 @@ footer {
       width: 170px;
       height: 170px;
     }
+  }
+
+  .fa-brands {
+    font-size: 40px;
   }
 
   .div_12_anos {
