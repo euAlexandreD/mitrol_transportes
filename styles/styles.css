@@ -32,7 +32,7 @@ img {
   z-index: 1000;
 }
 
-.fa-brands {
+#botao_whats_baixo {
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -639,6 +639,19 @@ section {
   color: white;
   margin-top: 10px;
   margin-left: 180px;
+}
+
+.numero_whats {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 140px;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-brands {
+  margin-right: 10px;
 }
 
 .form_contato {
