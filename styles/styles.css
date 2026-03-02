@@ -5,6 +5,10 @@
   font-family: poppins, sans-serif;
 }
 
+.espaco {
+  opacity: 0;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -178,7 +182,7 @@ nav {
   background-color: white;
   width: 800px;
   height: 420px;
-  margin-left: 190px;
+  margin-left: 320px;
   margin-top: 20px;
   padding: 20px;
   border-radius: 20px 0 0 0;
